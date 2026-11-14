@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мое приложение со временем</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h2 id="ny-counter">До Нового года осталось: загрузка...</h2>
+  </div>
+
+  <div class="card">
+    <h3>Таймер</h3>
+    <div id="timer-display">00:10</div>
+    <button id="timer-start">Старт</button>
+    <button id="timer-stop">Стоп</button>
+    <button id="timer-reset">Сброс</button>
+  </div>
+
+  <div class="card">
+    <h3>Секундомер</h3>
+    <div id="stopwatch-display">00:00</div>
+    <button id="stopwatch-start">Старт</button>
+    <button id="stopwatch-stop">Стоп</button>
+    <button id="stopwatch-lap">Круг</button>
+    <button id="stopwatch-reset">Сброс</button>
+    <ul id="laps-list"></ul>
+  </div>
+
+  <div class="card">
+    <h3>Будильник</h3>
+    <input type="time" id="alarm-input">
+    <button id="set-alarm">Установить</button>
+    <p id="alarm-message"></p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
